@@ -7,11 +7,16 @@ form.addEventListener("submit", e => {
   let warnings = ""
   let entrar = false
   let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
-  parrafo.innerHTML = ""
+  parrafo.innerHTML = warnings
   if (!regexEmail.test(email.value)) {
-    warnings += `El email no es valido`
+    warnings += `El email no es valido, porfavor ingrese otro.`
     entrar = true
-  } else {
-    parrafo.innerHTML = "Enviado"
   }
+
+  if (entrar) {
+    parrafo.innerHTML = warnings
+  } else {
+    parrafo.innerHTML = "¡Enviado!"
+  }
+
 })

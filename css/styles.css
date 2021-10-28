@@ -638,6 +638,98 @@ section .container-text p{
   margin-top: .25em;
 }
 
+/**Oferta academica - General**/
+.cont-gen{
+  text-align: center;
+}
+
+.cont-gen h1{
+  padding: 30px 0;
+}
+
+.container-general{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.generalidades{
+  width: 200px;
+}
+
+.container-general img{
+  border-radius: 5px;
+}
+
+.container-text-of{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-text-of h1{
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+
+.container-text-of p{
+  text-align: justify;
+  padding-bottom: 60px;
+}
+
+.imagen-mid{
+ width: 400px;
+ height: 300px;
+}
+
+.img-general{
+  width: 100%;
+  height: 100%;
+}
+
+.neg1{
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.icons-gen{
+  width: 200px;
+}
+
+.icons-gen i{
+  font-size: 50px;
+}
+
+.icons-gen p{
+  padding: 15px 0;
+}
+
+.img-foot-of{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-img-of{
+  width: 600px;
+  height: 400px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+}
+
+
+.img-foot{
+  width: 100%;
+  height: 100%;
+  padding: 50 10px;
+  border-radius: 5px;
+  
+}
+
 /**Autoridades**/
 .autoridades{
   width: 90%;
@@ -705,6 +797,7 @@ text-align: center;
 .container-noti{
   display: flex;
   justify-content: space-between;
+  align-items: center;
  width: 80%;
  margin: 0 auto;
  padding-bottom: 50px;
@@ -713,6 +806,108 @@ text-align: center;
 .text-cont{
   width: 90%;
   padding-top: 30px;
+}
+
+/**Noticia layout**/
+
+.noti{
+  width: 600px;
+}
+
+.container-noticias{
+  padding-top: 20px;
+}
+
+
+.part1-noti{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 10px;
+}
+
+.part1-noti .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part3-noti .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part2-noti{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.part3-noti{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 50px;
+}
+
+.container-img-noti2{
+  width: 350px;
+  height: 200px;
+  padding-left: 40px;
+}
+
+.container-img-noti2 img{
+  border-radius: 20px;
+}
+
+.img-noti2{
+  width: 100%;
+  height: 100%;
+}
+
+.part2-noti .container-text{
+   text-align: justify;
+}
+
+.part2-noti .container-noticias{
+  text-align: center;
+  padding-top: 0px;
+}
+
+.part2-noti .container-noticias h1{
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.container-img-noti{
+  width: 600px;
+  height: 300px;
+  padding-left: 40px;
+}
+
+.container-img-noti img{
+  border-radius: 20px;
+}
+
+.img-noti{
+  width: 100%;
+  height: 100%;
+}
+
+.imgcontainer-noti{
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.imgcontainer-noti .container-img-noti{
+  width: 600px;
+  height: 300px;
+  padding-left: 40px;
 }
 
 /**foother**/
@@ -980,7 +1175,7 @@ button:hover{
   text-align: center;
   margin: auto;
   color: var(--links);
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
 }
 
 /**Responsive content**/
@@ -1007,6 +1202,23 @@ button:hover{
   width: 700px;
   height: 300px;
 
+}
+
+.cont-gen h1{
+  padding-bottom: 0;
+}
+
+.container-general{
+  width: 90%;
+}
+
+.container-text-of{
+  width: 90%;
+}
+
+.imagen-mid{
+  width: 300px;
+  height: 200px;
 }
 
 }
@@ -1057,6 +1269,24 @@ button:hover{
   height: 300px;
   margin: 0 auto;
   padding: 0 0 30px 0;
+}
+
+.container-img-of{
+  width:400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-foot-of{
+  display: block;
+}
+
+.icons-gen i{
+  font-size: 40px;
+}
+
+.cont-gen p{
+ font-size: 13px;
 }
 
 }
@@ -1120,6 +1350,41 @@ button:hover{
   height: 200px;
 }
 
+.container-general{
+  display: block;
+}
+
+.generalidades{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.imagen-mid{
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+}
+
+.icons-gen{
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.icons-gen i{
+  font-size: 60px;
+}
+
+.cont-gen p{
+ font-size: 18px;
+}
+
+.container-text-of p{
+  width: 90%;
+  margin: 0 auto;
+}
+
+}
 
 @media (max-width:439px){
 
@@ -1145,5 +1410,16 @@ button:hover{
   width: 350px;
   height: 200px;
 }
+
+.imagen-mid{
+  margin: 0 auto;
+  width: 350px;
+  height: auto;
+}
+
+.container-img-of{
+  width: 350px;
 }
 }
+
+

@@ -6,10 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="img/index/indi-logo.ico">
-  <title>INDI</title>
+  <title>ITSI</title>
 </head>
 
 <body>
@@ -35,16 +34,16 @@
               <div class="dropdown">
                 <ul>
                   <li class="dropdown-link">
-                    <a href="">General</a>
+                    <a href="general.html">General</a>
                   </li>
                   <li class="dropdown-link">
-                    <a href="">ITSI</a>
+                    <a href="itsi.html">ITSI</a>
                   </li>
                   <li class="dropdown-link">
-                    <a href="">Contaduría</a>
+                    <a href="contaduria.html">Contaduría</a>
                   </li>
                   <li class="dropdown-link">
-                    <a href="">Flexible</a>
+                    <a href="flexible.html">Flexible</a>
                   </li>
                   <div class="arrow"></div>
                 </ul>
@@ -90,35 +89,73 @@
     </div>
   </header>
 
-  <main class="bg-cont">
-    <img class="bg-img-cont" src="img/index/fondo2.jpg" alt="">
-    <section class="container-contactanos">
-      <form action="email.php" method="POST" id="form">
-        <h1>¡Contactanos!</h1>
-        <div class="group">
-          <input type="text" name="name" id="" required><span class="bar"></span>
-          <label for="">Nombre completo</label>
+
+
+  <section class="cont-gen">
+    <h1>Generalidades</h1>
+    <div class="container-general">
+      <div class="generalidades">
+        <p class="neg1">Nombre de la carrera</p>
+        <p>Infraestructura Tecnologica y</p>
+        <p>servicios Informaticos</p>
+        <p class="neg1">Requisitos de ingreso</p>
+        <p>Diploma de Noveno Grado</p>
+        <p class="neg1">Modalidad que ofrece </p>
+        <p>Presencial</p>
+      </div>
+      <div class="imagen-mid">
+        <img class="img-general" src="img/oferta academica/itsi1.jpeg" alt="">
+      </div>
+      <div class="icons-gen">
+        <i class="fas fa-clock"></i>
+        <p>Cuatro Peridos </p>
+        <i class="fas fa-book"></i>
+        <p>Siete materias </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-text-of">
+      <h1>Descripcion</h1>
+      <p>Duracion de este tipo de bachillerato es de 3 años y su demanda ha venido en aumento debido
+        a la creciente demanda de tecnicos en el area de tecnologias de la informacion y comunicacion
+        Los alumnos al graduarse han adquirido las competencias necesarias para:
+        -Administrar recursos Tecnologicos
+        -Proveer asistencia Tecnica
+        -Desarrolar paquetes de software</p>
+      <div class="img-foot-of">
+        <div class="container-img-of">
+          <img class="img-foot" src="img/oferta academica/itsi2.jpeg" alt="">
         </div>
-        <div class="group">
-          <input type="text" name="email" id="email" required><span class="bar"></span>
-          <label for="">Correo electronico</label>
+        <div class="container-img-of">
+          <img class="img-foot" src="img/oferta academica/itsi3.jpeg" alt="">
         </div>
-        <div class="group">
-          <input type="text" name="asunto" id="" required><span class="bar"></span>
-          <label for="">Asunto</label>
+        <div class="container-img-of">
+          <img class="img-foot" src="img/oferta academica/itsi4.jpg" alt="">
         </div>
-        <div class="group">
-          <textarea name="message" id="" rows="3" required></textarea><span class="bar"></span>
-          <label for="">Mensaje</label>
+  </section>
+
+  <footer>
+    <section>
+      <div class="container-foo">
+        <div class="text-foo">
+          <p><i class="fas fa-map-marker-alt"></i>El Salvador, Cabañas, Ilobasco carretera hacia la presa Hidroeléctrica
+            5 de noviembre.</p>
+          <p><i class="fas fa-phone"></i>Tel: 2332-2089</p>
+          <p><i class="fas fa-envelope"></i>Correo: indi.mined@gmail.com</p>
+          <div class="copy-agra">
+            <p class="neg">Instituto Nacional de Ilobasco 2021. Todos los derechos reservados &copy;</p>
+          </div>
         </div>
-        <button type="submit">Envíar</button>
-        <p class="warnings" id="warnings"></p>
-      </form>
+        <img class="image-footer" src="img/index/Logo INDI PNG sin letras.png" alt="">
+        <div class="logo-redes">
+          <a href="https://www.facebook.com/indixsiempre" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <i class="fab fa-twitter-square"></i>
+        </div>
+      </div>
     </section>
-  </main>
-
-
-  <script src="js/script.js"></script>
+  </footer>
 </body>
 
 </html>
