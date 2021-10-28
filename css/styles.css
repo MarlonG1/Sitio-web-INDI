@@ -1260,6 +1260,11 @@ button:hover{
   width: 100%;
 }
 
+.noti{
+  width: 500px;
+  margin: 0 auto;
+}
+
 .part1{
   display: block;
 }
@@ -1384,6 +1389,10 @@ button:hover{
   margin: 0 auto;
 }
 
+.noti{
+  width: 400px;
+}
+
 }
 
 @media (max-width:439px){
@@ -1418,6 +1427,10 @@ button:hover{
 }
 
 .container-img-of{
+  width: 350px;
+}
+
+.noti{
   width: 350px;
 }
 }
