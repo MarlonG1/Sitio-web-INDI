@@ -171,7 +171,7 @@ header{
   width: 11px;
   height: 11px;
   top: -6.5px;
-  left: 32px;
+  left: 45px;
   background: #fff;
   transform: rotate(45deg);
   cursor: pointer;
@@ -518,6 +518,7 @@ section .container-text p{
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .link-camp{
@@ -571,7 +572,7 @@ section .container-text p{
   padding-bottom: 20px;
 }
 
-/**Oferta academica**/
+/**Oferta academica -Index**/
 
 .container-of{
   display: flex;
@@ -638,7 +639,7 @@ section .container-text p{
   margin-top: .25em;
 }
 
-/**Oferta academica - General**/
+/**Oferta academica - Layout**/
 .cont-gen{
   text-align: center;
 }
@@ -820,14 +821,51 @@ text-align: center;
   padding-top: 30px;
 }
 
-/**Noticia layout**/
-
 .noti{
   width: 600px;
 }
 
+
+/**Noticia layout**/
+
 .container-noticias{
   padding-top: 20px;
+}
+
+.container-noticias .titulo64 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+
+.line-ini2{
+  margin: 0 auto;
+  margin-left: 65px;
+  margin-right: 60px;
+  width: 90%;
+  padding-top: 0px;
+  padding-right: 30px;
+  border-top: 5px solid var(--gold-brown);
+}
+
+.line-ini3{
+  margin: auto;
+  width: 100%;
+  padding-top: 0px;
+  padding-right: 10px;
+  border-top: 5px solid var(--gold-brown);
+}
+
+
+.part3-noti{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 10px;
 }
 
 
@@ -836,6 +874,7 @@ text-align: center;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px 0 10px;
 }
 
@@ -864,8 +903,9 @@ text-align: center;
 }
 
 .container-img-noti2{
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  max-width: 350px;
+  max-height: 200px;
   padding-left: 40px;
 }
 
@@ -893,9 +933,12 @@ text-align: center;
 }
 
 .container-img-noti{
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 250px;
   padding-left: 40px;
+  padding-top: 0px;
+  
 }
 
 .container-img-noti img{
@@ -905,6 +948,25 @@ text-align: center;
 .img-noti{
   width: 100%;
   height: 100%;
+}
+
+
+.container-img-noti0 img{
+  border-radius: 20px;
+}
+
+.img-noti0{
+  width: 100%;
+  height: 100%;
+}
+.container-img-noti0{
+  margin-right: 25px;
+  width: 100%;
+  max-width: 350px;
+  max-height: 150px;
+  padding-left: 20px;
+  padding-top: 0px;
+  
 }
 
 .imgcontainer-noti{
@@ -917,8 +979,251 @@ text-align: center;
 }
 
 .imgcontainer-noti .container-img-noti{
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 250px;
+  padding-left: 40px;
+}
+
+.enlace {
+  padding-top: 30px;
+}
+
+/**Eventos**/
+.container-noti{
+  display: flex;
+  justify-content: space-between;
+ width: 80%;
+ margin: 0 auto;
+ padding-bottom: 50px;
+}
+
+.text-cont{
+  width: 90%;
+  padding-top: 30px;
+}
+
+/**Eventos layout**/
+
+.container-eventos{
+  padding-top: 20px;
+}
+
+
+.part1-eve{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 10px;
+}
+
+.part1-eve .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part3-eve .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part2-eve{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.part3-eve{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 50px;
+}
+
+.container-img-eve2{
+  width: 100%;
+  max-width: 400px;
+  max-height: 250px;
+  padding-left: 40px;
+}
+
+.container-img-eve2 img{
+  border-radius: 20px;
+}
+
+.img-eve2{
+  width: 100%;
+  height: 100%;
+}
+
+.part2-eve .container-text{
+   text-align: justify;
+}
+
+.part2-eve .container-eventos{
+  text-align: center;
+  padding-top: 0px;
+}
+
+.part2-eve .container-eventos h1{
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.container-img-eve{
+  width: 100%;
+  max-width: 350px;
+  max-height: 200px;
+  padding-right: 55px;
+}
+
+.container-img-eve img{
+  border-radius: 20px;
+}
+
+.img-eve{
+  width: 100%;
+  height: 100%;
+}
+
+.imgcontainer-eve{
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.imgcontainer-eve .container-img-eve{
+  width: 100%;
+  max-width: 450px;
+  max-height: 250px;
+ 
+}
+
+ 
+
+
+/**Deportes**/
+.container-noti{
+  display: flex;
+  justify-content: space-between;
+ width: 80%;
+ margin: 0 auto;
+ padding-bottom: 50px;
+}
+
+.text-cont{
+  width: 90%;
+  padding-top: 30px;
+}
+
+/**Deportes layout**/
+
+.container-deportes{
+  padding-top: 20px;
+}
+
+
+.part1-dep{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 10px;
+}
+
+.part1-dep .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part3-dep .container-text h1{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.part2-dep{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.part3-dep{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 50px;
+}
+
+.container-img-dep2{
+  width: 100%;
+  max-width: 350px;
+  max-height: 200px;
+  padding-left: 40px;
+}
+
+.container-img-dep2 img{
+  border-radius: 20px;
+}
+
+.img-dep2{
+  width: 100%;
+  height: 100%;
+}
+
+.part2-dep .container-text{
+   text-align: justify;
+}
+
+.part2-dep .container-deportes{
+  text-align: center;
+  padding-top: 0px;
+}
+
+.part2-dep .container-deportes h1{
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.container-img-dep{
+  width: 100%;
+  align-items: center;
+  max-width: 400px;
+  max-height: 300px;
+  padding-left: 40px;
+  padding-top: 15px;
+  
+}
+
+.container-img-dep img{
+  border-radius: 20px;
+}
+
+.img-dep{
+  width: 100%;
+  height: 100%;
+}
+
+.imgcontainer-dep{
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.imgcontainer-dep .container-img-noti{
+  width: 100%;
+  max-width: 600px;
+  max-height: 300px;
   padding-left: 40px;
 }
 
