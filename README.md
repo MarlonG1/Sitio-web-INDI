@@ -25,4 +25,4 @@ Busque un diseño llamativa haciendo uso con los colores del escudo de la instit
 
 _Gif de la interfaz_
 
-![Imagen-interfaz1](http://i.imgur.com/zzPrWloh.gif)
+![Imagen-interfaz1](https://i.imgur.com/zzPrWlo.gif)
