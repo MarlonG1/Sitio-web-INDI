@@ -23,6 +23,6 @@ Pero no te quedes solo con eso, hechale un vistazo tu mismo dando click <a href=
 
 Busque un diseño llamativa haciendo uso con los colores del escudo de la institución.
 
-_Gif de la interfaz_
+_Recorrido por la interfaz_
 
-![Imagen-interfaz1](https://i.imgur.com/zzPrWlo.gif)
+<img src="https://github.com/MarlonG1/Sitio-web-INDI/blob/main/ignorar/indi.gif?raw=true">
